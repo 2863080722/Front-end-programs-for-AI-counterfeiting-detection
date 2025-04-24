@@ -1,0 +1,31 @@
+<view class="flex-col justify-start relative page">
+  <image
+    class="image_1 pos_2"
+    src="../../images/image1.png"
+  />
+  <view class="flex-col relative">
+    <view class="flex-row justify-center items-center relative section_2">
+      <image
+        class="image pos"
+        src="https://ide.code.fun/api/image?token=656ce692fcfbac001136832a&name=052819247ba72fe9832144f326c0b960.png"
+      />
+      <text class="font_1">MABC</text>
+    </view>
+    <view class="flex-col section_3 mt-120">
+      <view class="flex-col items-center">
+        <text class="font_subhead">MABC</text>
+        <text class="mt-2 font text_2">暂无框架图</text>
+      </view>
+      <view class="flex-col justify-start items-start group_2">
+        <text class="font_2">
+          本算法的输入是一个带有音频的视频，将音视频的特征提取后经过编码，然后通过一个由自注意力和跨模态注意力构成的混注意力网络联合学习音视频的特征。将联合学习后的音视频特征采用边界匹配的方法分别生成伪造边界提议图，并通过一定的权重融合，获得整个视频的伪造边界提议图，最终通过软非极大抑制去除重复的提议，最后给出概率最高的伪造时间段，如果概率大于某个阈值，则判断该时间段内视频经过伪造。
+        </text>
+      </view>
+      <view class="flex-col justify-start items-center group_3">
+        <text class="font text_6">
+          论文暂无，开源代码：https://github.com/Tea7374/MABC-Net
+        </text>
+      </view>
+    </view>
+  </view>
+</view>

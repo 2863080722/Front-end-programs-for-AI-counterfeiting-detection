@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/music/music"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "音频鉴伪",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
