@@ -1,0 +1,40 @@
+<!--logs.wxml-->
+<navigation-bar title="个人中心" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <!--index.wxml-->
+  <view class="container">
+    <view class="main">
+      <view class="userinfo">
+        <view class="img">
+          <image class="userinfo-avatar" src="" background-size="cover"></image>
+        </view>
+        <view class="text">
+          <view class="userinfo-nickname">CUC</view>
+          <view class="tel">123****4567</view>
+        </view>
+
+      </view>
+      <view class="card" style="padding:0 30rpx">
+        <view class="info_list ">
+          <view class="info_list_child ">
+            <image class="icon " src="../../images/icon9.png"></image>
+            <view class="info-name ">关于我们</view>
+            <view class="answer"></view>
+            <image src="../../images/right.png" class="right "></image>
+          </view>
+          <view class="info_list_child ">
+            <image class="icon " src="../../images/icon10.png"></image>
+            <view class="info-name ">联系我们</view>
+            <view class="answer"></view>
+            <image src="../../images/right.png" class="right "></image>
+          </view>
+
+
+
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+</scroll-view>

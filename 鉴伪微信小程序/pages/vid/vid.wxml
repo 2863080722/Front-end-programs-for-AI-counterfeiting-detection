@@ -1,0 +1,22 @@
+<!--pages/vid/vid.wxml-->
+<!--pages/music/music.wxml-->
+
+<view class="container1">
+    <view class="container1-1">
+        <image src="/images/音频图标.jpg" mode="aspectFit"></image>
+        <text>(为保证准确性,视频需包含人像）</text>
+        <text style="color: rgba(60, 175, 241, 0.61);">移动端上传视频需选择聊天框文件进行上传</text>
+    </view>
+</view>
+
+<view class="button-1">
+    <button class="button">鉴别</button>
+</view>
+
+<view class="container2">
+    <view class="container2-2">
+
+    <text style="color: gray;">以下为代码展示</text>
+
+    </view> 
+</view>
