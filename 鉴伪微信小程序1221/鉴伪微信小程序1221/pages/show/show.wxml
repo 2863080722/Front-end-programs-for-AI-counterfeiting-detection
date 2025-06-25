@@ -1,0 +1,7 @@
+<!--pages/show/show.wxml-->
+<view class="item-text">算法选择</view>
+<button class="button" bindtap="handleButton1">MVSS</button>
+<button class="button" bindtap="handleButton2">MABC</button>
+<button class="button" bindtap="handleButton3">OSN</button>
+<button class="button" bindtap="handleButton4">W2V</button>
+<button class="button" bindtap="handleButton5">Tradition</button>

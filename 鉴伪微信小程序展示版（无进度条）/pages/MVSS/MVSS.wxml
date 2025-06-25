@@ -1,0 +1,30 @@
+<view class="flex-col justify-start relative page">
+  <image
+    class="image_1 pos_2"
+    src="https://gitee.com/NataliaGrant/images/raw/master/image1.png"
+  />
+  <view class="flex-col relative">
+    <view class="flex-row justify-center items-center relative section_2"> </view>
+    <view class="flex-col section_3 mt-120">
+      <view class="flex-col items-center">
+        <text class="font_subhead">MVSS</text>
+        <image
+          class="image-intro"
+          src="https://cnvpcuc.com//MVSS.png"
+          mode="aspectFit"
+        />
+        <text class="mt-2 font text_2">框架图</text>
+      </view>
+      <view class="flex-col justify-start items-start group_2">
+        <text class="font_2">
+          ——提出了一个多视图、多尺度的通用图像篡改检测网络MVSS-Net。多视图体现在使用边缘监督分支引导网络更关注篡改区域边缘，使用噪声分支提取图像局部噪声相关性，最后利用空间和通道注意力融合两分支特征。多尺度体现在使用像素级分类损失的同时利用图像级分类损失使网络在特异性和敏感性之间取得平衡。通过多视图和多尺度提升模型泛化性并减少虚警。由于绿幕合成的视频中背景和前景主体一般是用不同拍摄设备在不同环境下获取的，所以两者在噪声分布上会有区别；在合成时，主体和背景融合的边缘可能会留下痕迹。所以MVSS-Net算法通过深度学习网络提取图像中的噪声和边缘信息，联合两种信息检测出图像的篡改区域。
+        </text>
+      </view>
+      <view class="flex-col justify-start items-center group_3">
+        <text class="font text_6">
+          论文题目：MVSS-Net: Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection，代码：https://github.com/dong03/MVSS-Net
+        </text>
+      </view>
+    </view>
+  </view>
+</view>

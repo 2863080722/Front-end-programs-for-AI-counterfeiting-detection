@@ -1,0 +1,10 @@
+<!--pages/result/result.wxml-->
+<view class="main">
+    <scroll-view scroll-y class="scroll-view">
+        <view class="item-card">
+          
+           
+           
+        </view>
+    </scroll-view>
+</view>

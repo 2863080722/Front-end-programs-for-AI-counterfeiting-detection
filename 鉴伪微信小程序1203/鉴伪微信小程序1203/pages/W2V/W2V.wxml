@@ -1,0 +1,31 @@
+<view class="flex-col justify-start relative page">
+  <image
+    class="image_1 pos_2"
+    src="../../images/image1.png"
+  />
+  <view class="flex-col relative">
+    <view class="flex-row justify-center items-center relative section_2">
+
+    </view>
+    <view class="flex-col section_3 mt-120">
+      <view class="flex-col items-center">
+        <text class="font_subhead">深度音频检测模型W2V-ASDG</text>
+        <image
+          class="image_2"
+          src="../../images/image4.png"
+        />
+        <text class="mt-2 font text_2">音频检测模型W2V-ASDG框架图</text>
+      </view>
+      <view class="flex-col justify-start items-start group_2">
+        <text class="font_2">
+          ——本模型前端由语音识别大模型Wav2Vec2-XLS-R提取语音的高级特征，后端基于域泛化理论提出了Aggregation and Separation Domain Generalization(ASDG)的新方法来学习域不变的语音特征空间。训练集由三种不同语音鉴伪数据集构成，总计27种造假方法。
+        </text>
+      </view>
+      <view class="flex-col justify-start items-center group_3">
+        <text class="font text_6">
+          论文题目：Learning A Self-Supervised Domain-Invariant Feature Representation for Generalized Audio Deepfake Detection，暂未开源
+        </text>
+      </view>
+    </view>
+  </view>
+</view>

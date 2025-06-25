@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<button bind:tap="getinfo">发起GET请求</button>
+<button bind:tap="postinfo">发起POST请求</button>

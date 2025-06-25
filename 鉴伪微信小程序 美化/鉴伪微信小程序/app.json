@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/music/music"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "CUC音视频联合鉴伪",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#379ded",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/icon2.png",
+        "selectedIconPath": "images/icon2-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

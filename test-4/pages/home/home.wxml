@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+<navigator url="/pages/message/message" open-type="switchTab">导航到消息页面</navigator>

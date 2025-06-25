@@ -1,0 +1,57 @@
+/* pages/music/music.wxss */
+.container1{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center; 
+    border-radius: 5px
+}
+.container1-1{
+    width: 340px;
+    height: 400px;
+    background-color:rgba(173, 173, 173, 0.363);
+    align-items:center; 
+    flex-direction: column;
+    display:flex;
+    justify-content: center; 
+    border-radius: 5px
+}
+.container1-1 image{
+    width: 200rpx;      
+    height: 200rpx;
+}
+.container1-1 text{
+    margin-top: 20rpx;
+		  font-size: 28rpx;
+		  color: gray;
+}
+.button-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150rpx;
+}
+
+.button {
+    margin-top: 40rpx;
+    background: linear-gradient(to right, #ead6ee, #a0f1ea); 
+    color:rgb(88, 100, 211)
+}
+
+.container2{
+    display:flex;
+    justify-content: center; 
+}
+
+.container2-2{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(173, 173, 173, 0.363);
+    width: 340px;
+    height: 400px;
+    border-radius: 5px
+}
+
+.container2-2 text{
+    margin: 50rpx;
+}
+

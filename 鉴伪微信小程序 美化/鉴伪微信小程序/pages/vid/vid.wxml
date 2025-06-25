@@ -1,0 +1,24 @@
+<view class="main">
+    <scroll-view scroll-y class="scroll-view">
+        <view class="item-card">
+            <view class="item-image">
+                <image class="image" src='../../images/video.png'></image>
+            </view>
+            <view class="item-text1">(为保证准确性,视频需包含人像）</view>
+            <view class="item-text2">移动端上传视频需选择聊天框文件进行上传</view>
+        </view>
+
+<!--上传视频-->
+        <view calss="margin" style="overflow:hidden">
+            <block wx:if="{{videosrc}}">
+                <video duration="100" page-gesture="true" direction="0" initial-time="10" show-progress="false" src="{{videosrc}}" mode="center"></video>
+            </block>
+        </view>
+
+
+        <button class="button" bindtap="chooseVideo">鉴别</button>
+        <view class="item-card1">
+            <view class="text">以下为代码展示</view>
+        </view>
+    </scroll-view>
+</view>

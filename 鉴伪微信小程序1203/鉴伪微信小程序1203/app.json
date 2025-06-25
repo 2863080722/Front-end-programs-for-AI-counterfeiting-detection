@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/music/music",
+    "pages/show/show",
+    "pages/result/result",
+    "pages/MVSS/MVSS",
+    "pages/MABC/MABC",
+    "pages/OSN/OSN",
+    "pages/W2V/W2V",
+    "pages/Tradition/Tradition"
+  ],
+
+  "subpackages":[
+    {
+        "root":"package-music",
+        "pages": [
+            "pages/music"
+        ]
+    },
+    
+    {
+        "root":"package-show",
+        "pages": [
+            "pages/MABC",
+            "pages/MVSS",
+            "pages/OSN",
+            "pages/Tradition",
+            "pages/W2V"
+        ]
+    },
+
+    {
+        "root":"package-result",
+        "pages": [
+            "pages/result"
+        ]
+    }
+
+  ],
+
+
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "CUC媒体事实核查平台",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#379ded",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/icon2.png",
+        "selectedIconPath": "images/icon2-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

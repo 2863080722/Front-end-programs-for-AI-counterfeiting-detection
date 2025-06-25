@@ -1,0 +1,23 @@
+<view class="flex-col justify-start relative page">
+  <image
+    class="image_1 pos_2"
+    src="https://gitee.com/NataliaGrant/images/raw/master/image1.png"
+  />
+  <view class="flex-col relative">
+    <view class="flex-row justify-center items-center relative section_2">
+        
+    </view>
+    <view class="flex-col section_3 mt-120">
+      <view class="flex-col items-center">
+        <text class="font_subhead">传统音频检测</text>
+
+        <text class="mt-2 font text_2">暂无框架图</text>
+      </view>
+      <view class="flex-col justify-start items-start group_2">
+        <text class="font_2">
+          ——采用线性支持向量机分类模型，基于深度伪造语音数据集对模型进行训练，构造得到合成语音鉴伪模型。该模型采用九分类法，前八种分类(类别0～7)分别代表8种不同的合成算法，类别8表示真实音频。本模型要求输入格式为wav或mp3的待检测音频，先将音频统一转换为模型适用的16k采样率，再利用opensmile工具包提取相关特征，随后将待测音频文件的特征输入训练好的模型进行检测。检测结果以文字形式输出，结果内容包括测试音频判断为真实/伪造，若判断为伪造音频，则还会输出判断的伪造算法。
+        </text>
+      </view>
+    </view>
+  </view>
+</view>

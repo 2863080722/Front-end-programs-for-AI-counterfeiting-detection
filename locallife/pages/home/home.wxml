@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<!--微信轮播图-->
+<swiper>
+    <swiper-item wx:for="{{swiperlist}}" wx:key="id">
+        <image src="{{item.image_src}}"></image> 
+    </swiper-item>
+</swiper>
+
+<navigator url="/pages/info/info">导航至info</navigator>
+<navigator url="/pages/message/message" open-type="switchTab">导航至消息</navigator>

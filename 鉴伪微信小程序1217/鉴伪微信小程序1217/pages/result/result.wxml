@@ -1,0 +1,20 @@
+<!--pages/result/result.wxml-->
+<view class="main">
+    <scroll-view scroll-y class="scroll-view">
+        <view class="item-card">
+            <view class="item-text1">综合鉴定结果：{{Result_all}}</view>
+            <view class="item-text1">总伪造概率：{{scores_all}}</view>
+            <view class="item-text1">视觉伪造概率：{{scores_all_img}}</view>
+            <view class="item-text1">听觉伪造概率：{{scores_all_audio}}</view>
+
+            <view class="item-text1">MVSS预测结果：{{mvss_prediction}}</view>
+            <view class="item-text1">OSN预测结果：{{osn_prediction}}</view>
+            <view class="item-text1">MABC预测结果：{{ mabc_prediction}}</view>
+            <view class="item-text1">传统音轨DeepFake预测结果：{{result_txt_afd}}</view>
+            <view class="item-text1">深度音轨DeepFake预测结果：{{deep_audio_trace}}</view>
+
+<!-- <view class="item-text1">{{uploadResult}}</view>-->
+           
+        </view>
+    </scroll-view>
+</view>

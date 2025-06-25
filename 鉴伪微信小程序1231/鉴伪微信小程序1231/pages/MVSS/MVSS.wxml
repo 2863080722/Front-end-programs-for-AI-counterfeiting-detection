@@ -1,0 +1,32 @@
+<!--pages/result/result.wxml-->
+<view class="main"> 
+    <scroll-view scroll-y class="scroll-view">
+        <image class="image-intro-result" src="https://ypx342.bvimg.com/21265/4ff141905ba73b6f.png" />
+        
+        <!-- <image wx:if="{{num==1}}" class="image-intro-result"
+        src="https://ypx342.bvimg.com/21265/4ff141905ba73b6f.png" />
+        <image wx:if="{{num==0}}" class="image-intro-result"
+        src="https://ypx342.bvimg.com/21265/05419c66466148af.png" /> -->
+        <view class="item-card-top">
+
+            <view class="item-text1" >
+            综合鉴定结果：{{Result_all}}</view>
+            <view class="item-text1">总伪造概率：{{scores_all}}</view>
+            <view class="item-text1">视觉伪造概率：{{scores_all_img}}</view>
+            <view class="item-text1">听觉伪造概率：{{scores_all_audio}}</view>
+            
+            <!-- <view class="item-text1">{{uploadResult}}</view>-->
+
+        </view>
+        <view class="item-card">
+          <view class="item-text1">MVSS预测结果：{{mvss_prediction}}</view>
+            <image src="https://cnvpcuc.com:34430/static/mvss_plot.png" class="image-result" />
+        </view>
+        <view class="item-card">
+          <view class="item-text1">MABC预测结果：{{mabc_prediction}}</view>
+        </view>
+        <view class="item-card">
+          <view class="item-text1">传统音轨DeepFake预测结果：{{result_txt_afd}}</view>
+        </view>
+    </scroll-view>
+</view>

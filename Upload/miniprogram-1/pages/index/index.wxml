@@ -1,0 +1,7 @@
+<view class="container">
+  <button bindtap="chooseVideo">选择视频</button>
+  <button bindtap="uploadVideo">上传视频</button>
+  <text>上传结果：</text>
+  <view class="result">{{uploadResult}}</view>
+  <text>进度：{{progress}}</text>
+</view>

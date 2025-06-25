@@ -1,0 +1,31 @@
+<view class="flex-col justify-start relative page">
+  <image
+    class="image_1 pos_2"
+    src="https://gitee.com/NataliaGrant/images/raw/master/image1.png"
+  />
+  <view class="flex-col relative">
+    <view class="flex-row justify-center items-center relative section_2">
+
+    </view>
+    <view class="flex-col section_3 mt-120">
+      <view class="flex-col items-center">
+        <text class="font_subhead">OSN</text>
+        <image
+          class="image-intro"
+          src="https://66llu.github.io/AIGC_Detect/OSN.png"
+        />
+        <text class="mt-2 font text_2">框架图</text>
+      </view>
+      <view class="flex-col justify-start items-start group_2">
+        <text class="font_2">
+          ——IF-OSN算法采用域对抗学习的方法针对经过在线社交网络（Online Social Networks，OSNs)传播后的图像进行鉴伪算法的优化。OSN平台通常会对用户上传的图片进行缩放、压缩、增强等操作，而这些操作可能会掩盖本就不明显的篡改痕迹。IF-OSN算法首先使用深度学习网络建模图像通过OSN后引入的噪声等，然后用加噪后的图像进行后续图像分割网络的训练，以增强网络对噪声的鲁棒性。
+        </text>
+      </view>
+      <view class="flex-col justify-start items-center group_3">
+        <text class="font text_6">
+          论文题目：Robust Image Forgery Detection Over Online Social Network Shared Images，代码：https://github.com/HighwayWu/ImageForensicsOSN
+        </text>
+      </view>
+    </view>
+  </view>
+</view>
